@@ -1,0 +1,35 @@
+
+.search{
+  width:50%;
+  height:2em;
+  border-radius: 10px;
+  box-shadow:4px 4px 4px black;
+  border-color:grey;
+  border-style: none;
+
+}
+.City,.NotFound{
+  color:black;
+  margin-top: 50px;
+  border-radius: 15px;
+  text-align: center;
+  font-size:50px;
+  background-color: grey;
+  opacity:0.5;
+  box-shadow: 4px 4px 4px black;
+
+}
+.temperature{
+  color:blue;
+  font-size: 60px;
+  text-Align: center;
+  Margin-top: 20px;
+  text-shadow:4px 4px 4px grey;
+}
+.description{
+  color:black;
+  font-size: 60px;
+  text-Align: center;
+  Margin-top: 20px;
+  text-shadow:4px 4px 4px grey;
+}
