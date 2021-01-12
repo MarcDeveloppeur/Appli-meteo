@@ -6,12 +6,11 @@
   box-shadow:4px 4px 4px black;
   border-color:grey;
   border-style: none;
+  border-color: white;
+  background-color: transparent;
+  color:white;
 
 }
-.bloque{
-  
-}
-
 .City,.NotFound{
   color:black;
   margin-top: 50px;
@@ -38,7 +37,7 @@
   text-shadow:4px 4px 4px grey;
 }
 .hotbackground{
-  background-image: url("../assets/ete.jpg");
+  background-image: url("../assets/chaud.jpg");
   height: 700px;
   background-repeat: round;
   max-width: 550px;
