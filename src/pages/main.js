@@ -16,11 +16,13 @@ function Main() {
   }
 
   return (
-    <div className="bloque">
+    //changer de fond si la temperature est superieur à 12°
+    <div className="bloque" className={typeof resultat.weather != 'undefined' && resultat.main.temp>12?"hotbackground":"coldbackground"}>
         <div className="search-box">
             <input type="text" className="search" placeholder="Rechercher une ville" value={city} onChange={handleChange} onKeyPress={action}/>
         </div>
         <div className="result">
+        //Afficher les résultat si resultat.weather est définie
         {(typeof resultat.weather != 'undefined')?(
           <div>
           <div className="City">{resultat.name}, {resultat.sys.country}</div>

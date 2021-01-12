@@ -8,6 +8,10 @@
   border-style: none;
 
 }
+.bloque{
+  
+}
+
 .City,.NotFound{
   color:black;
   margin-top: 50px;
@@ -32,4 +36,17 @@
   text-Align: center;
   Margin-top: 20px;
   text-shadow:4px 4px 4px grey;
+}
+.hotbackground{
+  background-image: url("../assets/ete.jpg");
+  height: 700px;
+  background-repeat: round;
+  max-width: 550px;
+}
+
+.coldbackground{
+  background-image: url("../assets/cold.jpg");
+  height:700px;
+  background-repeat: round;
+  max-width: 550px;
 }
