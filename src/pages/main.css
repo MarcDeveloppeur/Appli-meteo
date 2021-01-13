@@ -1,12 +1,17 @@
 
+body{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  background-color:#eee;
+}
+
 .search{
-  width:50%;
+  width:100%;
   height:2em;
   border-radius: 10px;
   box-shadow:4px 4px 4px black;
-  border-color:grey;
   border-style: none;
-  border-color: white;
   background-color: transparent;
   color:white;
 
@@ -22,6 +27,8 @@
   box-shadow: 4px 4px 4px black;
 
 }
+
+
 .temperature{
   color:blue;
   font-size: 60px;
@@ -38,14 +45,35 @@
 }
 .hotbackground{
   background-image: url("../assets/chaud.jpg");
-  height: 700px;
+  height: 600px;
   background-repeat: round;
-  max-width: 550px;
+  width:auto;
+  padding: 20px 50px;
+  animation: softTrans 1s ease-in forwards;
+  transition:background-image 1s ease-in;
+  border:1px black solid;
+  box-shadow: 2px 2px 2px black;
+  margin-top: 20px;
 }
 
 .coldbackground{
   background-image: url("../assets/cold.jpg");
-  height:700px;
+  height:600px;
   background-repeat: round;
-  max-width: 550px;
+  width:auto;
+  padding: 20px 50px;
+  animation: softTrans 1s ease-in forwards;
+  transition:background-image 1s ease-in;
+  border:1px black solid;
+  box-shadow: 2px 2px 2px black;
+  margin-top: 20px;
+}
+
+@keyframes softTrans {
+  from{
+    transform: scale(0.7);
+  }
+  to{
+    transform:scale(1);
+  }
 }
