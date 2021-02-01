@@ -8,13 +8,13 @@ body{
 
 .search{
   width:100%;
-  height:2em;
+  height:3em;
   border-radius: 10px;
   box-shadow:4px 4px 4px black;
   border-style: none;
   background-color: transparent;
   color:white;
-
+  padding-left: 10px;
 }
 .City,.NotFound{
   color:black;
@@ -68,7 +68,18 @@ body{
   box-shadow: 2px 2px 2px black;
   margin-top: 20px;
 }
+.searchButton{
 
+  width:100%;
+  height:2em;
+  border-radius: 10px;
+  box-shadow:4px 4px 4px black;
+  border:1px solid black;
+  background-color: rgb(100,100,100,0.5);
+  color:white;
+  cursor:pointer;
+  margin-top: 20px;
+}
 @keyframes softTrans {
   from{
     transform: scale(0.7);
